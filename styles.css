@@ -26,6 +26,7 @@ main{
   flex-direction: column;
   max-width: 24em;
   margin-top: 5em;
+  gap: 1em;
   font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -47,10 +48,23 @@ main{
 }
 
 .grayCard{
-  background-color: hsl(225, 100%, 94%);
+  background-color: hsl(225, 100%, 98%);
   width: 75%;
   margin: auto;
   border-radius: 5%;
+  padding: 1em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grayText{
+  display: flex;
+  gap: 1em;
+  color: hsl(224, 23%, 55%);
+}
+
+.grayTitle{
+  color: black;
+  font-weight: 700;
 }
