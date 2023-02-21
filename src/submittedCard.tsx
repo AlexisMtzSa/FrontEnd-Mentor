@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-const SubmittedCard = ({rate}) =>{
+const SubmittedCard: React.FC<{rate:number}> = ({rate}) =>{
 
     return(
         
@@ -22,10 +22,6 @@ const SubmittedCard = ({rate}) =>{
       </div>
     )
 
-}
-
-SubmittedCard.prototypes = {
-  rate: PropTypes.number.isRequired
 }
 
 export default SubmittedCard;

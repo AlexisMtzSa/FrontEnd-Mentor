@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useNavigate } from 'react-router'
 
-const RatingCard = ({changeRate}) =>{
+const RatingCard: React.FC<{changeRate: Function}> = ({changeRate}) =>{
 
     let rate: number = 0
 
@@ -44,10 +44,6 @@ const RatingCard = ({changeRate}) =>{
       </div>
     )
 
-}
-
-RatingCard.prototypes = {
-  changeRate: PropTypes.func.isRequired
 }
 
 export default RatingCard;
