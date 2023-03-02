@@ -1,0 +1,49 @@
+body {
+    background: -webkit-linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCard{
+
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 65%;
+    height: 75%;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.images{
+    background-image: url("../images/bg-pattern-desktop.svg");
+    flex-grow: 1;
+}
+
+
+
+.questions{
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+@media (max-width: 376px){
+
+    .mainCard{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .questions h1{
+        margin: auto auto;
+    }
+}
+
+
