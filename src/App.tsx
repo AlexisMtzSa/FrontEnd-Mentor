@@ -26,7 +26,7 @@ function App() {
           </div>
         </div>
         <div className='backCard'>
-          <img src='../images/bg-card-back.png' alt='Back card'></img>
+          {/*<img src='../images/bg-card-back.png' alt='Back card'></img>*/}
           <span>{cvc}</span>
         </div>
       </div>

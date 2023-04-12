@@ -89,6 +89,9 @@ button:focus-visible {
 }
 
 .backCard{
+  background-image: url("../images/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
   display: inline-block;
 }
@@ -180,9 +183,6 @@ input{
 
   .backCard{
     margin-left: 5rem;
-  }
-
-  .backCard img{
     height: 250px;
     width: 450px;
   }
@@ -237,20 +237,17 @@ input{
     font-size: small;
     margin: 0 2rem;
   }
+
   .backCard{
     position: absolute;
     z-index: -1;
     top: 0;
     left: 40px;
-  }
-
-  .backCard img{
     top: 0;
     left: 0;
     height: 150px;
     width: 275px
   }
-
   .backCard span{
     margin: 3.8rem 0 0 13rem;
   }
