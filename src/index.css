@@ -17,10 +17,10 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
-
 
 h1 {
   font-size: 3.2em;
@@ -83,6 +83,14 @@ button:focus-visible {
    width: 25%;
 }
 
+.cardLogo{
+  background-image: url("../images/card-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 25%;
+}
+
 .infoCard{
   display: flex;
   justify-content: space-between;
@@ -138,6 +146,31 @@ input{
   justify-content: center;
 }
 
+.completeMessage{
+  text-align: center;
+  margin: auto;
+}
+
+.completeIcon{
+  background-image: url("../images/icon-complete.svg");
+  height: 75px;
+  width: 75px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.completeMessage h1{
+  color: hsl(278, 68%, 11%);
+}
+
+.completeMessage p{
+  color: hsl(279, 6%, 55%);
+}
+
+.attribution{
+  color: black;
+}
 
 
 @media(min-width: 376px){
@@ -166,13 +199,13 @@ input{
     width: 450px;
   }
 
-  .frontCard img{
-    margin-left: 3rem;
-  }
-
   .frontCard > span{
     font-size: xx-large;
     margin-bottom: -2rem;
+    margin-left: 3rem;
+  }
+
+  .cardLogo{
     margin-left: 3rem;
   }
 
@@ -223,7 +256,7 @@ input{
     width: 275px
   }
 
-  .frontCard img{
+  .cardLogo{
     margin-left: 2rem;
   }
 
@@ -263,19 +296,3 @@ input{
   
 }
 
-.completeMessage{
-  text-align: center;
-  margin: auto;
-}
-
-.completeMessage h1{
-  color: hsl(278, 68%, 11%);
-}
-
-.completeMessage p{
-  color: hsl(279, 6%, 55%);
-}
-
-.attribution{
-  color: black;
-}

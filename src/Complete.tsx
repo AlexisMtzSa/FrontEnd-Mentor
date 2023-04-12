@@ -4,7 +4,7 @@ const Complete = () =>{
 
     return(
         <div className='completeMessage'>
-            <img src='../images/icon-complete.svg' alt='Complete icon'></img> 
+            <div className='completeIcon'/>
             <h1>Thank You!</h1>
             <p>We've added your card details</p>
         </div>

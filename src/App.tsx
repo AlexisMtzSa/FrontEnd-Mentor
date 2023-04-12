@@ -18,7 +18,7 @@ function App() {
         
       <div className='cards'>
         <div className='frontCard'>
-          <img src='../images/card-logo.svg' alt='Card logo'></img>
+          <div className='cardLogo'/>
           <span>{cardNumber}</span>
           <div className='infoCard'>
             <span>{cardHolderName}</span>
@@ -26,7 +26,6 @@ function App() {
           </div>
         </div>
         <div className='backCard'>
-          {/*<img src='../images/bg-card-back.png' alt='Back card'></img>*/}
           <span>{cvc}</span>
         </div>
       </div>
